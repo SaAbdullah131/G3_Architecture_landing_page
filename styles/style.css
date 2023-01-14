@@ -214,9 +214,10 @@ span {
     font-size: 45px;
 }
 
-.history-title h6 {
-    font-size: 20px;
+.history-title>h6 {
+    font-size: 22px;
     font-weight: 600;
+    color:#727272;
 }
 
 .history img {
