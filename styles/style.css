@@ -225,7 +225,7 @@ span {
     height: auto;
 }
 
-.sponspors-img {
+.sponspors-img{
     width: auto;
     height: auto;
 }
@@ -258,16 +258,4 @@ footer {
 .footer-des {
     font-weight: 400;
     font-size: 20px;
-}
-
-
-
-
-@media  screen and (max-width:576px) {
-
-   .navbar-title {
-    font-size: 10px;
-}
-}
-    
 }
