@@ -48,7 +48,7 @@ img {
     align-items: center;
 }
 
-.navbar-title {
+.navbar-title,.sponspor-title {
     font-size: 45px;
     font-weight: 700;
 }
@@ -129,7 +129,8 @@ span {
     margin-right: 10px;
 }
 
-.service-title,.some-fact-heading {
+.service-title,
+.some-fact-heading {
     font-size: 45px;
     margin-bottom: 24px;
     font-weight: 700;
@@ -145,7 +146,7 @@ span {
 .expre {
     display: flex;
     justify-content: center;
-    gap:54px;
+    gap: 54px;
     margin-bottom: 140px;
 }
 
@@ -153,6 +154,8 @@ span {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 25px;
+    margin-left: 1px;
+    border-left: 2px solid #FF900E;
 }
 
 .expre-heading-description {
@@ -170,11 +173,11 @@ span {
 .expre-title {
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 10px;
+     margin-bottom: 10px;
 }
 
 .btn-exp {
-    margin-top: -65px;
+    margin-top: -70px;
     padding: 45px 50px;
     font-size: 65px;
     font-weight: 700;
@@ -185,8 +188,85 @@ span {
     color: white;
     font-size: 20px;
 }
+
 .some-fact-des {
     font-size: 16px;
     font-weight: 400;
     color: #727272
+}
+
+.history-date {
+    margin-top: 100px;
+    margin-bottom: 170px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.history {
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 50px;
+}
+
+.history-title {
+    font-weight: 600px;
+    font-size: 45px;
+}
+
+.history-title h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.history img {
+    width: auto;
+    height: auto;
+}
+
+.sponspors-img {
+    width: auto;
+    height: auto;
+}
+.sponspors {
+    text-align: center;
+}
+.sponspor-des {
+    font-size: 16px;
+    color:#727272;
+    margin-top: 44px;
+}
+.all-sponspor-img {
+    display: flex;
+    gap:54px;
+    margin-top: 44px;
+    filter: brightness(0) ;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    margin: 0 auto;
+    background: rgba(255, 144, 14, 0.1);
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    max-width: 1140px;
+}
+.footer-des {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+@media  screen and (max-width:576px) {
+
+   .navbar-title {
+    font-size: 10px;
+}
+}
+    
 }
