@@ -276,13 +276,6 @@ span {
     margin-bottom: 50px;
     padding: 10px;
 }
-.project >img{
-    width: auto;
-    text-align: center;
-    border: 0;
-    border-radius: 50%;
-    padding-left: 5px;
-}
 .project-title{
     font-weight: 700;
     text-align: center;
