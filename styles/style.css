@@ -13,7 +13,7 @@ main {
 .primary-color {
     background-color: #FF900E;
 }
-
+/*  All button */
 .primary-btn {
     padding: 15px 25px;
     border: none;
@@ -23,6 +23,23 @@ main {
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+}
+.primary-btn:hover {
+    background-color: #c67439;
+    padding:17px 27px;
+    opacity: 0.9;
+}
+.btn-exp {
+    margin-top: -70px;
+    padding: 45px 50px;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+.btn-exp:hover {
+    background-color: #c67439;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 /* navigation section  */
@@ -178,15 +195,6 @@ span {
     font-size: 20px;
      margin-bottom: 10px;
 }
-
-.btn-exp {
-    margin-top: -70px;
-    padding: 45px 50px;
-    font-size: 65px;
-    font-weight: 700;
-    text-align: center;
-}
-
 .exp {
     color: white;
     font-size: 20px;
@@ -210,6 +218,18 @@ span {
     border: 1px solid #FF900E;
     text-align: center;
     padding: 50px;
+}
+.history:hover {
+    background-color: #c67439;
+    color:white;
+    transform: scale(1.2);
+ 
+}
+.history:hover img {
+    transform: rotate(360deg);
+}
+.history img {
+    transition: transform 0.5s;
 }
 
 .history-title {
@@ -266,7 +286,6 @@ span {
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     gap: 30px;
-   
 }
 .project{
     border: 0px;
@@ -317,4 +336,20 @@ footer {
 .footer-des {
     font-weight: 400;
     font-size: 20px;
+}
+
+
+/* media query */
+@media  screen and (max-width:576px) {
+   main {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+}
+.nav-container {
+    padding:0px;
+}
+    h2 {
+    font-size: 36px;
+    }
 }
