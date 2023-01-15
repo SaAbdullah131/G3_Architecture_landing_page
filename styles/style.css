@@ -344,6 +344,7 @@ display: none;
 }
 /* header section responsive */
 @media  screen and (max-width:576px) {
+    
     .header-container {
         padding: 20px 15px;
         flex-direction: column;
@@ -383,3 +384,72 @@ display: none;
      grid-template-columns: repeat(1,1fr);
     }
   }  
+  /* service section end */
+
+  /* Experience section start */
+  @media  screen and (max-width:576px) {
+    .expre {
+        flex-direction: column-reverse;
+    }
+    .expre-intro {
+        height: 100%;
+    }
+    .btn-exp{
+        font-size: 50px;
+        line-height: 0.5em;
+    }
+    /* some facts and history section */
+    .history-date {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:15px;
+        justify-content: center;
+        align-items: center;
+    }
+    /* sponspors sections */
+    .sponspors {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .all-sponspor-img {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    /* project showcase */
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* footer section */
+    .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    padding:85px 50px 60px;
+}
+/* .footer-des{
+    font-size: 11px;
+} */
+}
+/* for medium device  */
+@media  screen and (min-width:577px) and (max-width:992px) {
+    .history-date{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .all-sponspor-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}
