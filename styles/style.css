@@ -42,7 +42,7 @@ main {
     cursor: pointer;
 }
 
-/* navigation section  */
+/* Header section  */
 
 .header {
     background: rgba(255, 144, 14, 0.1);
@@ -117,12 +117,14 @@ img {
     margin-bottom: 30px;
 
 }
-
-
 .banner-img {
     margin-top: 50px;
 }
+/* Header section End */
 
+/* ---------------
+service section start
+------------------ */
 .service-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -158,7 +160,11 @@ span {
     font-size: 16px;
     color: #727272
 }
+/* Service section End */
 
+/* -------------
+Experience and feature section
+---------------- */
 .expre {
     display: flex;
     justify-content: center;
@@ -198,7 +204,11 @@ span {
     color: white;
     font-size: 20px;
 }
+/* experience and feature section End */
 
+/* -------------------
+Award and history data
+--------------------- */
 .some-fact-des {
     font-size: 16px;
     font-weight: 400;
@@ -246,6 +256,10 @@ span {
     width: auto;
     height: auto;
 }
+/* award and history section done */
+/* ----------
+sponspros section start
+-------------- */
 
 .sponspors-img{
     width: auto;
@@ -267,6 +281,7 @@ span {
     justify-content: center;
     align-items: center;
 }
+
 /* project showcase */
 .my-project {
     margin-top: 60px;
@@ -322,6 +337,7 @@ span {
     background-color:#FD6E0A;
 
 }
+/* footer section */
 footer {
     margin: 0 auto;
     background: rgba(255, 144, 14, 0.1);
@@ -337,11 +353,10 @@ footer {
     font-size: 20px;
 }
 
-
 /* media query */
-.hide {
+/* .hide {
 display: none;
-}
+} */
 /* header section responsive */
 @media  screen and (max-width:576px) {
     
@@ -431,9 +446,7 @@ display: none;
   main {
     padding:85px 50px 60px;
 }
-/* .footer-des{
-    font-size: 11px;
-} */
+
 }
 /* for medium device  */
 @media  screen and (min-width:577px) and (max-width:992px) {
